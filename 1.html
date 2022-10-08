@@ -1,28 +1,37 @@
-<ul>
-    <li>1.HTML</li>
-    <li>2.CSS</li>
-    <li>3.JavaScript</li>
-</ul>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WEB1 - html</title>
+        <meta charset="utf-8">
+    </head>
 
-<ol>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Java</li>
-</ol>
+    <body>
+        <ul>
+            <li>1.HTML</li>
+            <li>2.CSS</li>
+            <li>3.JavaScript</li>
+        </ul>
 
-<h1>HTML</h1> <!-- <h1>~<h6>: 제목을 나타내는 태그 -->
-<p>Hypertext Markup Language (HTML) is the standard Markup
-language for <strong>creating <u>web</u> pages</strong>  and web applications.
-Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages.
-HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
-</p>
-<img src="coding.jpg" width="100%">
-<p style = "margin-top: 45px;">HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects, such as interactive
-forms, may be embedded into the rendered page. It provides a means to create structured documents by denoting structural
-semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by
-tags, written using angle brackets.
-</p>
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Java</li>
+        </ol>
 
+        <h1>HTML이란 무엇인가?</h1> <!-- <h1>~<h6>: 제목을 나타내는 태그 -->
+        <p>Hypertext Markup Language (HTML) is the standard Markup
+        language for <strong>creating <u>web</u> pages</strong>  and web applications.
+        Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages.
+        HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+        </p>
+        <img src="coding.jpg" width="100%">
+        <p style = "margin-top: 45px;">HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects, such as interactive
+        forms, may be embedded into the rendered page. It provides a means to create structured documents by denoting structural
+        semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by
+        tags, written using angle brackets.
+        </p>
+    </body>
+</html>
 <!-- tag</>는 태그 안에 있는것을 설명하는 용도 -->
 <!-- <strong>사이에 입력하면 글자 진하게</strong>-->
 <!-- <u>사이에 입력하면 글자에 밑줄</u>-->
@@ -48,4 +57,13 @@ tags, written using angle brackets.
     <ul>,<ol>태그는 <li>태그의 부모태그로서 리스트끼리 줄바꿈을 할때 용도로 사용    
     <ul>태그대신 <ol>태그를 쓰면 맨앞의 항목별 점은 사라지고 번호로 표기.
     
+-->
+
+<!--
+    13장: <title>태그로 제목설정 가능
+    한글깨질때 => utf-8로 인코딩했지만 웹에서는 utf-8로 디코딩하지 못했기 때문에 깨짐현상 발생
+    <meta charset="utf-8">을 통해서 utf-8로 인코딩한 내용을 웹에서 디코딩할 수 있게 함
+    본문을 설명하는 태그는 <head>로 묶고 본문은 <body>태그로 묶는다.
+    <head>,<body>태그를 모두 포함하는 <html>태그가 존재
+    항상 <html>태그 위에 관용적으로<!doctype html>이라고 적어줌
 -->
